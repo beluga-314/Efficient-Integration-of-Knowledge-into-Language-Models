@@ -52,9 +52,9 @@ python -m rome.layer_stats --layer_num=10 --model_name=EleutherAI/gpt-j-6B
 ```python
 request = {
     "prompt": "{} plays the sport of",
-    "subject": "LeBron James",
+    "subject": "Virat Kohli",
     "target_new": {
-        "str": "football"
+        "str": "cricket"
     }
 }
 ```
