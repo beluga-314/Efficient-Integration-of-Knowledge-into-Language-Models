@@ -3,6 +3,9 @@
 This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only).
 We currently support OpenAI's GPT-2 XL (1.5B) and EleutherAI's GPT-J (6B)
 
+Official Paper link - [ROME](https://openreview.net/forum?id=-h6WAS6eE4)
+Datasets - [Data](https://rome.baulab.info/data/)
+
 ## Table of Contents
 1. [Installation](#installation)
 2. [Causal Tracing](#causal-tracing)
