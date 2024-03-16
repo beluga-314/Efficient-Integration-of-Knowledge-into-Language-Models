@@ -129,10 +129,6 @@ python3 -m experiments.evaluate \
 python3 -m experiments.summarize --dir_name=X --runs=run_<run_id>
 ```
 
-### Note on Cross-Platform Compatibility
-
-We currently only support methods that edit autoregressive HuggingFace models using the PyTorch backend. We are working on a set of general-purpose methods (usable on e.g. TensorFlow and without HuggingFace) that will be released soon.
-
 <!-- 
 Each method is customizable through a set of hyperparameters. For ROME, they are defined in `rome/hparams.py`. At runtime, you must specify a configuration of hyperparams through a `.json` file located in `hparams/<method_name>`. Check out [`hparams/ROME/default.json`](hparams/ROME/default.json) for an example.
 
