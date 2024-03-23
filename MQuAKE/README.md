@@ -110,8 +110,6 @@ We propose a simple but effective method MeLLo, which (1) decomposes a multi-hop
 The in-context-learning examples we used in MeLLo can be founded in `prompts/MeLLo-prompts.txt`. 
 A python notebook for running MeLLo on `text-davinci-003` is here: [`run_mello.ipynb`](https://github.com/princeton-nlp/MQuAKE/blob/main/run_mello.ipynb).
 
-## Bugs or Questions?
-If you have any questions related to the repo or the paper, or you encounter any problems when using the datasets/code, feel free to email Zexuan Zhong `(zzhong@cs.princeton.edu)` or open an issue!
 
 ## Citation
 ```bibtex
