@@ -1,14 +1,11 @@
 # MQuAKE
 
-This is the repository for our paper [MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions](https://arxiv.org/abs/2305.14795).
+paper link [MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions](https://arxiv.org/abs/2305.14795).
 
-In this paper, we introduce a benchmark for knowledge editing, MQuAKE, which comprises multi-hop questions that assess whether edited models correctly answer questions where the answer should change as an entailed consequence of edited facts.
+In this paper, a benchmark for knowledge editing, MQuAKE is introduced, which comprises multi-hop questions that assess whether edited models correctly answer questions where the answer should change as an entailed consequence of edited facts.
 
-We also propose a simple memory-based approach, MeLLo, which can scale with LLMs (up to 175B) and outperforms previous model editors by a large margin.
+Also a simple memory-based approach, MeLLo is introduced, which can scale with LLMs (up to 175B) and outperforms previous model editors by a large margin.
 
-Please see [our paper](https://arxiv.org/pdf/2305.14795.pdf) for more details.
-
-<img src="figs/main-model-edit.png" width="400">
 
 ## Datasets
 
@@ -109,7 +106,6 @@ We use either standard prompting or chain-of-thought (CoT) prompting to query th
 ## MeLLo
 We propose a simple but effective method MeLLo, which (1) decomposes a multi-hop questions into subquestions; (2) prompts the base language model to provide tentative answers to subquestions; and (3) self-checks whether the tentative answers contradict any edited facts in the memory. See more details in our paper.
 
-<img src="figs/MeLLo.png" width="800">
 
 The in-context-learning examples we used in MeLLo can be founded in `prompts/MeLLo-prompts.txt`. 
 A python notebook for running MeLLo on `text-davinci-003` is here: [`run_mello.ipynb`](https://github.com/princeton-nlp/MQuAKE/blob/main/run_mello.ipynb).
@@ -118,7 +114,6 @@ A python notebook for running MeLLo on `text-davinci-003` is here: [`run_mello.i
 If you have any questions related to the repo or the paper, or you encounter any problems when using the datasets/code, feel free to email Zexuan Zhong `(zzhong@cs.princeton.edu)` or open an issue!
 
 ## Citation
-If you use our code in your research, please cite our work:
 ```bibtex
 @article{zhong2023mquake,
   title={{MQuAKE}: Assessing Knowledge Editing in Language Models via Multi-Hop Questions},
