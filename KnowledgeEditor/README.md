@@ -17,4 +17,5 @@ Code for Editing Factual Knowledge in Language Models (https://arxiv.org/abs/210
 
 # Models and Data
 
-This [folder](https://mega.nz/folder/p9JC3bwC#vzcrsh9b-pnWPaWdlcBVUA) contains the datasets and the base models used for this work.
+Datasets and checkpoints can be found here - https://indianinstituteofscience-my.sharepoint.com/:f:/g/personal/rkalyan_iisc_ac_in/EpsRYzGPbHxDsw0PGjSfhAQBRhhaFnsMeyODO3TzQ6pGmw?e=hfNqFo, Runs can be found here - https://indianinstituteofscience-my.sharepoint.com/:f:/g/personal/rkalyan_iisc_ac_in/EvHZ5jghh9tItYZGUcIJt08BNQUhI2IlCB5-7zieX-6eqQ?e=55ybmf
+ 
